@@ -1,0 +1,29 @@
+[submodule "ToplevelOptional"]
+	path = libraries/gptl
+	url = https://github.com/jedwards4b/GPTL.git
+        fxtag = v5.3.2
+        fxurl = https://github.com/jedwards4b/GPTL.git
+        fxrequired = TopLevelOptional
+        
+[submodule "ToplevelRequired"]
+	path = libraries/mpi-serial
+	url = https://github.com/ESMCI/mpi-serial.git
+        fxrequired = TopLevelRequired
+        fxurl = https://github.com/ESMCI/mpi-serial.git
+        fxtag = MPIserial_2.5.0
+
+[submodule "AlwaysRequired"]
+	path = modules/mpi-serial
+	url = https://github.com/ESMCI/mpi-serial.git
+        fxrequired = AlwaysRequired
+        fxurl = https://github.com/ESMCI/mpi-serial.git
+        fxtag = MPIserial_2.4.0
+
+[submodule "AlwaysOptional"]
+	path = modules/mpi-serial2
+	url = https://github.com/ESMCI/mpi-serial.git
+        fxrequired = AlwaysOptional
+        fxurl = https://github.com/ESMCI/mpi-serial.git
+        fxtag = MPIserial_2.3.0
+
+ 
