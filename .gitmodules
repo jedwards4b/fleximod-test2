@@ -3,12 +3,12 @@
 	url = https://github.com/jedwards4b/GPTL.git
         fxtag = v5.3.2
         fxurl = https://github.com/jedwards4b/GPTL.git
-        fxrequired = TopLevelOptional
+        fxrequired = ToplevelOptional
         
 [submodule "ToplevelRequired"]
 	path = libraries/mpi-serial
 	url = https://github.com/ESMCI/mpi-serial.git
-        fxrequired = TopLevelRequired
+        fxrequired = ToplevelRequired
         fxurl = https://github.com/ESMCI/mpi-serial.git
         fxtag = MPIserial_2.5.0
 
@@ -30,7 +30,7 @@
 [submodule "Complex"]
 	path = modules/complex
 	url = https://github.com/jedwards4b/fleximod-test1
-        fxrequired = TopLevelRequired
+        fxrequired = ToplevelRequired
 	fxurl = https://github.com/jedwards4b/fleximod-test1
         fxtag = testtag01
         
