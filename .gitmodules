@@ -27,3 +27,10 @@
         fxtag = MPIserial_2.3.0
 
  
+[submodule "Complex"]
+	path = modules/complex
+	url = https://github.com/jedwards4b/fleximod-test1
+        fxrequired = TopLevelRequired
+	fxurl = https://github.com/jedwards4b/fleximod-test1
+        fxtag = testtag01
+        
