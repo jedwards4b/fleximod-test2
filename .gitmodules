@@ -29,8 +29,8 @@
  
 [submodule "Complex"]
 	path = modules/complex
-	url = https://github.com/jedwards4b/fleximod-test1
+	url = https://github.com/ESMCI/fleximod-test1
         fxrequired = ToplevelRequired
 	fxDONOTUSEurl = https://github.com/jedwards4b/fleximod-test1
-        fxtag = testtag02
+        fxtag = testtag3
         
